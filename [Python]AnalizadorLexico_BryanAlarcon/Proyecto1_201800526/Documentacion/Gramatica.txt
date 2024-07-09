@@ -1,0 +1,8 @@
+BEGIN -> ID '(' LISTA_REGLA ')'
+        | ENTERO
+	| DECIMAL
+LISTA_REGLA -> REGLA '+|-|*|(|)|/' LISTA_REGLA
+  	      | EPSILON
+      REGLA -> ID '+|-|*|(|)|/' VALOR
+      VALOR -> ENTERO
+             | DECIMAL

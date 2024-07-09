@@ -1,0 +1,70 @@
+Expresiones Regulares
+
+Letra: [a-zA-Z]
+Numero: [0-9]
+
+//Expresiones regulares para valores a asignar o algun id
+id     -> ('#')? letra (letra |numero|'-')*
+enteros -> (numero)+ ('px')?
+
+
+//palabras reservadas //CSS
+color       : 'color'
+fsize       : 'font-size'
+pos         : 'position'
+top         : 'top'
+back_color  : 'background-color'
+marginTop   : 'margin-top'
+
+//palabras reservadas //JS
+if 	    : 'if'
+else        : 'else'
+for         : 'for'
+break       : 'break'
+switch      : 'switch'
+
+//palabras reservadas //HTML
+html 	    : 'html'
+border      : 'border'
+color       : 'color'
+body_color  : 'body_color'
+p           : 'p'
+h#          : 'h#'
+
+
+
+//Simbolos del lenguaje
+'{' : LLAVE_IZQ
+'}' : LLAVE_DER
+':' : DPUNTOS
+';' : PCOMA
+',' : COMA
+'!' : DISTINTO
+'&' : CONJUNCION
+'|' : DISYUNCION
+'+' : MAS
+'-' : MENOS
+'*' : ASTERISCO
+'/' : BARRA
+'<' : MENOR
+'>' : MAYOR
+'"' : COMILLAS
+'=' : IGUAL
+'(' : PAREN_IZQ
+')' : PAREN_DER
+
+//Algunos ejemplos de los tokens
+[Token]       [Informal Description]                  [Sample Lexemes]
+if            characters i, f                         if
+else          characters e, l, s, e                   else
+for	      characters f, o, r	              for
+break         characters b, r, e, a, k		      break
+switch        characters s, w, i, t, c, h             switch
+html          characters h, t, m, l                   html
+border        characters b, o, r, d, e, r             border
+color         characters c, o, l, o, r                color
+back_color    characters b, a, c, k, c, o, l, o, r    back_color
+comparison    < or > or <= or >= or == or !=          <=, !=
+ID            letter followed by letters and digits   pi, score, D2
+ENTERO        any numeric constant                    3.14159, 0, 6.02e23
+LITERAL       anything but ", surrounded by "'s       "core dumped"
