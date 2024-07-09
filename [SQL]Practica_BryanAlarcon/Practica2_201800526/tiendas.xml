@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<tiendas xmlns="http://www.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="http://www.ipc2.com/ practica2.xsd">
+		<tienda>
+			<id>1</id>
+			<municipio>Guatemala</municipio>
+			<departamento>Guatemala</departamento>
+			<ubicacion> 1 av. 17-33 zona 12 </ubicacion>
+			<encargado>Pedro Pablo Pinto Palma</encargado>
+			<telefono>22413333</telefono>
+		</tienda>
+		<tienda>
+			<id>58</id>
+			<ubicacion> 3 av. 17-33 zona 1 </ubicacion>
+			<encargado>Jaime Jacinto Jerez</encargado>
+			<telefono>22413333</telefono>
+		</tienda>
+	</tiendas>

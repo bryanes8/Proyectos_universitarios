@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<productos xmlns="http://www.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="http://www.ipc2.com/ practica2.xsd">
+		<producto>
+			<id>1</id>
+			<categoria>arroz</categoria>
+			<existencias>20</existencias>
+			<marca>Gallo dorado</marca>
+			<precio>04.50</precio>
+			<tamanio>1</tamanio><!--se refiere a libras-->
+			<vencimiento>15/03/2021</vencimiento>
+			<tienda>1</tienda>
+		</producto>
+		<producto>
+			<id>2</id>
+			<categoria>arroz</categoria>
+			<existencias>20</existencias>
+			<marca>Gallo dorado</marca>
+			<precio>21.00</precio>
+			<tamanio>5</tamanio><!--se refiere a libras-->
+			<vencimiento>15/03/2021</vencimiento>
+			<tienda>1</tienda>
+		</producto><producto>
+			<id>4</id>
+			<categoria>Papel higienico</categoria>
+			<existencias>25</existencias>
+			<marca>nube blanca</marca>
+			<precio>5</precio>
+			<tamanio>4</tamanio><!--Unidades por paquete-->
+			<vencimiento></vencimiento>
+			<tienda>58</tienda>
+		</producto>
+		<producto>
+			<id>18</id>
+			<categoria>Papel higienico</categoria>
+			<existencias>45</existencias>
+			<marca>nube blanca</marca>
+			<precio>20</precio>
+			<tamanio>6</tamanio><!--Unidades por paquete-->
+			<vencimiento></vencimiento>
+			<tienda>58</tienda>
+		</producto>
+	</productos>

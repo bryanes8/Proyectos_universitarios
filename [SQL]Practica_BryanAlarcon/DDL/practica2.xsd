@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element type="tiendasType" name="tiendas"/>
+	<xs:element type="empleadosType" name="empleados"/>
+    <xs:element type="productosType" name="productos"/>
+	<xs:complexType name="tiendasType">
+		<xs:sequence>
+			<xs:element type="tiendaType" name="tienda" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="productosType">
+		<xs:sequence>
+			<xs:element type="productoType" name="producto" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="empleadosType">
+		<xs:sequence>
+			<xs:element type="empleadoType" name="empleado" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="tiendaType">
+		<xs:sequence>
+			<xs:element type="xs:int" name="id"/>
+			<xs:element type="xs:string" name="municipio" minOccurs="0"/>
+			<xs:element type="xs:string" name="departamento" minOccurs="0"/>
+			<xs:element type="xs:string" name="ubicacion"/>
+			<xs:element type="xs:string" name="encargado"/>
+			<xs:element type="xs:int" name="telefono"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="empleadoType">
+		<xs:sequence>
+			<xs:element type="xs:long" name="CUI"/>
+			<xs:element type="xs:string" name="nombre"/>
+			<xs:element type="xs:string" name="apellido"/>
+			<xs:element type="xs:int" name="telefono"/>
+			<xs:element type="xs:string" name="puesto"/>
+			<xs:element type="xs:string" name="fechainicio"/>
+			<xs:element type="xs:string" name="fechafin"/>
+			<xs:element type="xs:string" name="HoraInicio"/>
+			<xs:element type="xs:string" name="HoraFin"/>
+			<xs:element type="xs:int" name="tienda"/>
+			<xs:element type="xs:string" name="jefe"/>
+			<xs:element type="xs:string" name="password"/>
+		</xs:sequence>
+	</xs:complexType>
+  
+	<xs:complexType name="productoType">
+		<xs:sequence>
+		  <xs:element type="xs:int" name="id"/>
+		  <xs:element type="xs:string" name="categoria"/>
+		  <xs:element type="xs:int" name="existencias"/>
+		  <xs:element type="xs:string" name="marca"/>
+		  <xs:element type="xs:float" name="precio"/>
+		  <xs:element type="xs:int" name="tamanio"/>
+		  <xs:element type="xs:string" name="vencimiento"/>
+		  <xs:element type="xs:int" name="tienda"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<empleados xmlns="http://www.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="http://www.ipc2.com/ practica2.xsd">
+		<empleado>
+			<CUI>2222111220101</CUI>
+			<nombre>Pedro Pablo</nombre>
+			<apellido>Pinto Palma</apellido>
+			<telefono>57668787</telefono>
+			<puesto>Encargado</puesto>
+			<fechainicio>15/03/2010</fechainicio>
+			<fechafin></fechafin>
+			<HoraInicio>07:00</HoraInicio>
+			<HoraFin>18:00</HoraFin>
+			<tienda>1</tienda>
+			<jefe></jefe>
+			<password>abcd.1234.</password>
+		</empleado>
+		<empleado>
+			<CUI>1111111220101</CUI>
+			<nombre>Pedro Javier</nombre>
+			<apellido>Pinto Jerez</apellido>
+			<telefono>41358979</telefono>
+			<puesto>Despacho</puesto>
+			<fechainicio>25/11/2015</fechainicio>
+			<fechafin></fechafin>
+			<HoraInicio>07:00</HoraInicio>
+			<HoraFin>12:00</HoraFin>
+			<tienda>1</tienda>
+			<jefe>Pedro Pablo Pinto Palma</jefe>
+			<password>jkfda%1234.</password>
+		</empleado>
+		<empleado>
+			<CUI>3325647890101</CUI>
+			<nombre>Jaime Jacinto</nombre>
+			<apellido>Jerez</apellido>
+			<telefono>3325876</telefono>
+			<puesto>Encargado</puesto>
+			<fechainicio>01/03/2018</fechainicio>
+			<fechafin></fechafin>
+			<HoraInicio>07:00</HoraInicio>
+			<HoraFin>18:00</HoraFin>
+			<tienda>58</tienda>
+			<jefe></jefe>
+			<password>abcd$1234a</password>
+		</empleado>
+	</empleados>
